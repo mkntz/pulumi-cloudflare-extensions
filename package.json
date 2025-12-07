@@ -25,6 +25,7 @@
   ],
   "scripts": {
     "build": "tsdown --format cjs --format esm",
+    "lint": "eslint",
     "prepare": "husky",
     "test": "jest",
     "test:cov": "jest --coverage"
