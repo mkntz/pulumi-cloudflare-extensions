@@ -1,0 +1,37 @@
+{
+  "name": "@mkntz/pulumi-cloudflare-extensions",
+  "version": "0.0.0",
+  "description": "Extensions to Pulumi Cloudflare provider",
+  "keywords": [
+    "pulumi",
+    "cloudflare",
+    "typescript"
+  ],
+  "homepage": "https://github.com/mkntz/pulumi-cloudflare-extensions#readme",
+  "bugs": {
+    "url": "https://github.com/mkntz/pulumi-cloudflare-extensions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkntz/pulumi-cloudflare-extensions.git"
+  },
+  "license": "MIT",
+  "author": "Makan Taghizadeh <me@mkntz.com>",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown --format cjs --format esm"
+  },
+  "devDependencies": {
+    "tsdown": "^0.17.0",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@pulumi/cloudflare": "^6.11.0",
+    "@pulumi/pulumi": "^3.210.0"
+  }
+}
