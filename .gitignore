@@ -215,3 +215,5 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,visualstudiocode,node,pulumi
 
+# JUnit test output
+junit.xml
