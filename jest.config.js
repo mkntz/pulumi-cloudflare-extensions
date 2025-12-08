@@ -10,6 +10,7 @@ const config = {
   moduleNameMapper: {
     "src/(.*)": "<rootDir>/$1",
   },
+  reporters: ["default", ["jest-junit", { classNameTemplate: "{filepath}" }]],
   rootDir: "src",
   testEnvironment: "node",
   testRegex: ".*\\.(test|spec)\\.ts$",
