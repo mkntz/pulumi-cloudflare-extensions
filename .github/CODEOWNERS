@@ -1,0 +1,35 @@
+# CODEOWNERS file for pulumi-cloudflare-extensions
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, @mkntz will be requested for
+# review when someone opens a pull request.
+
+# Default owner for everything in the repo
+* @mkntz
+
+# Configuration files
+*.json @mkntz
+*.js @mkntz
+*.ts @mkntz
+tsconfig.json @mkntz
+package.json @mkntz
+
+# CI/CD and GitHub workflows
+/.github/ @mkntz
+
+# Documentation
+*.md @mkntz
+/README.md @mkntz
+
+# Source code
+/src/ @mkntz
+
+# Tests
+*.test.ts @mkntz
+
+# Build and tooling configuration
+/tsdown.config.ts @mkntz
+/jest.config.js @mkntz
+/eslint.config.js @mkntz
+/prettier.config.js @mkntz
+/commitlint.config.js @mkntz
+/lint-staged.config.js @mkntz

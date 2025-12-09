@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "mkntz"
+    groups:
+      security-updates:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      major-version-updates:
+        applies-to: "version-updates"
+        update-types:
+          - "major"
+      non-major-version-updates:
+        applies-to: "version-updates"
+        update-types:
+          - "minor"
+          - "patch"
