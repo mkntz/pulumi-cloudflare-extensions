@@ -1,6 +1,6 @@
 {
   "name": "@mkntz/pulumi-cloudflare-extensions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Extensions to Pulumi Cloudflare provider",
   "keywords": [
     "pulumi",
